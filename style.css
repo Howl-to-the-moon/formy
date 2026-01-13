@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('/fonts/SourceCodePro-Regular.woff2') format('woff2'),
+        url('/fonts/SourceCodePro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ChunkFive';
+    src: url('/fonts/ChunkFive-Regular.woff2') format('woff2'),
+        url('/fonts/ChunkFive-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 body{
     margin: 0;
     padding: 0;
@@ -5,11 +25,53 @@ body{
     overflow: hidden;
 }
 
+div>label+input{
+    width: 200px;
+    height: 25px;
+    color: gold;
+    
+}
+
+
 /* Classes */
 
-.flexV{
+.flexV, .flex{
     display: flex;
     flex-flow: column;
+    font-family: 'Source Code Pro', serif;
+}
+
+.flexV{
+    
+    align-items: center;
+    margin-left: 50px;
+}
+
+.flex label{
+
+    color: darkgreen;
+
+}
+
+.topMessage{
+    width: 1000px;
+    font-size: 2rem;
+}
+
+.cleanForm{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    width: 600px;
+    margin: 50px 200px;
+    gap: 20px;
+    justify-content: space-between;
+    font-size: 1rem;
+    
+}
+
+.signUp{
+    font-size: 1.5rem;
 }
 
 /* Ids */
@@ -52,7 +114,19 @@ body{
     left: 50px;
     top: 60px;
     color: darkcyan;
+    font-family: 'ChunkFive', Impact, Serif;
     font-size: 5rem;
     font-weight: 500;
 }
 
+/*
+
+Logo bar: honestly maybe two divs stacked ontop of eachother. one for the bar,
+second to just position the name and logo beter.
+
+and then just make everything into a flex div? to make it all shrink and change
+together or smth. whatever.
+
+
+
+*/
