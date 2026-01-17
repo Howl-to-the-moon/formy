@@ -28,7 +28,8 @@ body{
 div>label+input{
     width: 200px;
     height: 25px;
-    color: gold;
+    font-size: 20px;
+    color: rgb(6, 70, 33);
     
 }
 
@@ -41,9 +42,15 @@ div>label+input{
     font-family: 'Source Code Pro', serif;
 }
 
+.flexLSide{
+   
+    width: 100%;
+}
+
+
 .flexV{
     
-    align-items: center;
+    
     margin-left: 50px;
 }
 
@@ -55,18 +62,21 @@ div>label+input{
 
 .topMessage{
     width: 1000px;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-top: 150px;;
 }
 
 .cleanForm{
+    
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-flow: wrap;
     width: 600px;
-    margin: 50px 200px;
+    margin: 50px 0px;
     gap: 20px;
     justify-content: space-between;
     font-size: 1rem;
+    
     
 }
 
@@ -76,7 +86,7 @@ div>label+input{
 
 /* Ids */
 
-#sideimg{
+.sideimg{
     height: 935px;
     width: 560px;
     position: relative;
@@ -112,7 +122,7 @@ div>label+input{
 
 #sidecapT{
     left: 50px;
-    top: 60px;
+    top: 50px;
     color: darkcyan;
     font-family: 'ChunkFive', Impact, Serif;
     font-size: 5rem;
@@ -120,6 +130,8 @@ div>label+input{
 }
 
 /*
+
+for flex latrr
 
 Logo bar: honestly maybe two divs stacked ontop of eachother. one for the bar,
 second to just position the name and logo beter.
