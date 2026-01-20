@@ -63,7 +63,7 @@ a:visited{
     color: rgb(0, 22, 0);
 }
 
-
+/* Main thing for the collapsing left side combined with the hidden overflow */
 
 
 .left{
@@ -89,7 +89,7 @@ a:visited{
     justify-content: space-around;
 }
 
-/*left side bs*/
+/*left side */
 
 .sideImg{
     max-height: 100%;
@@ -136,11 +136,32 @@ a:visited{
     
 }
 
-/*right side bs*/
+/*right side*/
 
 .largeText{
     font-size: 25px;
     font-family: 'Source Code Pro', serif;
+}
+
+
+
+.backgroundForm{
+    background-color: white;
+    box-shadow: 0px 2px 3px grey;
+}
+
+.cleanForm{
+    
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    width: 600px;
+    margin: 0px 0px 20px 0px;
+    gap: 50px 40px;
+    padding: 20px 100% 20px 0px;
+    justify-content: space-around;
+    font-size: 1rem;
+    
 }
 
 .flex{
@@ -179,25 +200,6 @@ input:focus{
     outline: none;
     border: rgb(6, 109, 104) solid 2px;
     transition: 0.5s;
-}
-
-.backgroundForm{
-    background-color: white;
-    box-shadow: 0px 2px 3px grey;
-}
-
-.cleanForm{
-    
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    width: 600px;
-    margin: 0px 0px 20px 0px;
-    gap: 50px 40px;
-    padding: 20px 100% 20px 0px;
-    justify-content: space-around;
-    font-size: 1rem;
-    
 }
 
 
