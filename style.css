@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Source Code Pro';
-    src: url('/fonts/SourceCodePro-Regular.woff2') format('woff2'),
-        url('/fonts/SourceCodePro-Regular.woff') format('woff');
+    src: url('fonts/SourceCodePro-Regular.woff2') format('woff2'),
+        url('fonts/SourceCodePro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'ChunkFive';
-    src: url('/fonts/ChunkFive-Regular.woff2') format('woff2'),
-        url('/fonts/ChunkFive-Regular.woff') format('woff');
+    src: url('fonts/ChunkFive-Regular.woff2') format('woff2'),
+        url('fonts/ChunkFive-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -72,7 +72,7 @@ a:visited{
     height: 940px;
     flex: 1 2 0;
     position: relative;
-    background-image: url(/imgs/waterfall.jpeg);
+    background-image: url(imgs/waterfall.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
